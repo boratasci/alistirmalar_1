@@ -1,0 +1,9 @@
+sayilar=[]
+for x in range(1,125):
+    k=125%x
+    t=200%x
+    u=350%x
+    if k==t==u:
+        sayilar.append(x)
+
+print(len(sayilar))
