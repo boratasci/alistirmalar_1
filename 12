@@ -1,0 +1,5 @@
+
+for dg_yili in range(1800,2006):
+    dg_yili=str(dg_yili)
+    if int(dg_yili[0])+int(dg_yili[1])+int(dg_yili[2])+int(dg_yili[3])==2005-int(dg_yili):
+        print(f'DG Tarihi: {dg_yili}')
