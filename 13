@@ -1,0 +1,9 @@
+for x in range (10,100):
+    x=str(x)    
+    for y in range (10,100):
+        y=str(y)
+    
+        if int((x+y)) == 11*(int(y)+int(x)):
+            print(f'İlk Sayı= {x}, İkinci Sayı: {y}')
+        elif int((y+x)) == 11*(int(y)+int(x)):
+            print(f'İlk Sayı= {x}, İkinci Sayı: {y}')
