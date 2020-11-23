@@ -1,0 +1,7 @@
+
+sum=0
+for i in range (10000,100000):
+    i=str(i)
+    if i[:2]==i[-2:]:
+        sum+=1
+print(sum)
