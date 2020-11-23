@@ -6,4 +6,4 @@ for x in range(1,125):
     if k==t==u:
         sayilar.append(x)
 
-print(len(sayilar))
+print(max(sayilar))
